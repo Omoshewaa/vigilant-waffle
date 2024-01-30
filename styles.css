@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: lightblue;
+  }
+  .landing{
+    list-style-type: none;
+  }
+  .hero{
+    display: flex;
+  }
+  #nav-bar{
+     position: fixed;
+     top: 0px;
+     width: 100%;
+  }
+  .nav-link{
+    text-decoration: none;
+     padding-right: 40px;
+    font-size:18px;
+    color: black;
+  }
+  .social-icons{
+    display: grid;
+    font-size: 3rem;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-flow: columns;
+    grid-auto-columns: 1fr;
+    align-items: center;
+  }
+  .wrapper{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 900px;
+  }
+  #header-img{
+    margin: 25px 60px;
+  }
+  .mega{
+    text-align: center;
+  }
+  .clear{
+    height: 2px;
+    width: 100%;
+  }
+  #submit{
+    background-color: yellow;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  #email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .icn{
+    margin-top: 70px;
+    padding: 10px 150px;
+  }
+  .qwe{
+    align-items: center;
+  }
+  .mat{
+    padding: 10px 5px;
+    display:flex;
+    float: left;
+  }
+  .ma{
+   padding: 0px 60px;
+  }
+  .freeze{
+    margin-right: 100px;
+    margin-top: 80px;
+  }
+  .awesome{
+    margin-right: 1500px;
+  }
+  .wave{
+    margin-bottom:2px;
+  }
+  .pass{
+    padding-right: 30px;
+  }
+  .credit{
+    padding-right: 620px;
+  }
+  .minimum{
+    padding-left: 42px;
+  }
+  .paste{
+     padding-right: 570px;
+  }
+  .kudus{
+    padding-left: 22px;
+  }
+  .fate{
+    margin-left: 1000px;
+  }
+  .cheer{
+    margin-left: 400px;
+    margin-top: 40px;
+  }
+  .meta{
+    border: 2px solid black;
+    width: 350px;
+    height: 380px;
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .flight{
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: yellow;
+    color: black;
+  }
+  .gold{
+    display: flex;
+    margin-left: 40px;
+  }
+  .beva{
+    background-color: burlywood;
+    padding: 10px 0;
+  }
+  .butterfly{
+    display: flex;
+    margin-left: 950px;
+  }
+  .flower{
+    margin-right: 10px;
+  }
+  .micro{
+    margin-left: 910px;
+     margin-top: 0;
+  }
+  .box{
+     background-color: burlywood;
+     margin: 10px 60px 0px 100px; 
+  }
+  .nut{
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  @media onlyscreen and (max-width: 780px){
+    width: 0;
+  }
+  
